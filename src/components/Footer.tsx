@@ -2,6 +2,7 @@
 
 import { ChevronUp } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useEffect, useState } from 'react';
 
 export default function Footer() {
@@ -29,9 +30,19 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center md:items-start gap-8 mb-12 text-center md:text-left">
           {/* Left */}
-          <div>
-            <h2 className="font-serif text-2xl font-medium mb-1">Sadiq Clinic</h2>
-            <p className="text-sm text-[#F6F1EB]/60">Medical & Gynae</p>
+          <div className="flex items-center space-x-3">
+            <div className="relative w-12 h-12 shrink-0 bg-white rounded-full p-1 shadow-md">
+              <Image
+                src="/images/logo-icon.png"
+                alt="Sadiq Medical & Gynae Clinic Logo"
+                fill
+                className="object-contain"
+              />
+            </div>
+            <div>
+              <h2 className="font-serif text-2xl font-medium mb-1">Sadiq Clinic</h2>
+              <p className="text-sm text-[#F6F1EB]/60">Medical & Gynae</p>
+            </div>
           </div>
 
           {/* Center */}

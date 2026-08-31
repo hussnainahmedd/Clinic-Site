@@ -57,14 +57,14 @@ export default function Hero() {
 
         </div>
 
-        {/* Right Side (Image Placeholder) */}
-        <div className="w-full md:w-[40%] mt-12 md:mt-0 relative z-10">
-          <div className="aspect-[4/5] sm:aspect-square md:aspect-[3/4] rounded-3xl bg-[#F6F1EB] border-2 border-[#C9A0A0]/60 flex items-center justify-center shadow-inner relative overflow-hidden group">
+        {/* Right Side (Official Graphic Banner) */}
+        <div className="w-full md:w-[45%] mt-12 md:mt-0 relative z-10">
+          <div className="aspect-[16/10] rounded-3xl bg-white border border-[#2A7D6F]/20 flex items-center justify-center shadow-xl relative overflow-hidden group p-2">
             <Image 
-              src="/images/clinic-main.jpg" 
-              alt="Sadiq Medical & Gynae Clinic Entrance & Signboard" 
+              src="/images/clinic-banner-clean.png" 
+              alt="Sadiq Medical & Gynae Clinic Official Banner" 
               fill
-              className="object-cover transition-transform duration-700 group-hover:scale-105"
+              className="object-contain transition-transform duration-700 group-hover:scale-105"
               priority
             />
           </div>

@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { Phone, Menu, X } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -34,9 +35,20 @@ export default function Navbar() {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="flex flex-col z-50">
-            <Link href="#hero" className="flex flex-col">
-              <span className="font-serif text-2xl font-bold text-[#1B2E3C]">Sadiq Clinic</span>
-              <span className="font-sans text-xs tracking-wider text-[#2A7D6F] uppercase font-semibold">Medical & Gynae</span>
+            <Link href="#hero" className="flex items-center space-x-3">
+              <div className="relative w-10 h-10 shrink-0">
+                <Image
+                  src="/images/logo-icon.png"
+                  alt="Sadiq Medical & Gynae Clinic Logo"
+                  fill
+                  className="object-contain"
+                  priority
+                />
+              </div>
+              <div className="flex flex-col">
+                <span className="font-serif text-2xl font-bold text-[#1B2E3C] leading-none">Sadiq Clinic</span>
+                <span className="font-sans text-[10px] tracking-wider text-[#2A7D6F] uppercase font-semibold mt-1">Medical & Gynae</span>
+              </div>
             </Link>
           </div>
 
