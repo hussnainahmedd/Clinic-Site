@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 export default function About() {
   return (
@@ -22,10 +23,23 @@ export default function About() {
           </div>
         </div>
 
-        {/* Right Content - 40% */}
-        <div className="w-full lg:w-[40%] flex justify-center lg:justify-end">
-          <div className="w-full h-[300px] border-2 border-dashed border-gray-300 rounded-xl flex items-center justify-center bg-gray-50 text-[#3D4A52]">
-            <span className="font-sans text-sm">Clinic interior photo</span>
+        {/* Right Content - 40% (Real Clinic Interior Photos) */}
+        <div className="w-full lg:w-[40%] grid grid-cols-2 gap-4">
+          <div className="relative aspect-[3/4] rounded-2xl overflow-hidden shadow-md group">
+            <Image
+              src="/images/clinic-interior.jpg"
+              alt="Sadiq Clinic Official PMDC Registration Board & Interior"
+              fill
+              className="object-cover transition-transform duration-500 group-hover:scale-105"
+            />
+          </div>
+          <div className="relative aspect-[3/4] rounded-2xl overflow-hidden shadow-md group mt-6">
+            <Image
+              src="/images/clinic-desk.jpg"
+              alt="Sadiq Clinic Consultation Area"
+              fill
+              className="object-cover transition-transform duration-500 group-hover:scale-105"
+            />
           </div>
         </div>
       </div>

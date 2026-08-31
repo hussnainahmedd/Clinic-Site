@@ -61,8 +61,8 @@ export default function Hero() {
         <div className="w-full md:w-[40%] mt-12 md:mt-0 relative z-10">
           <div className="aspect-[4/5] sm:aspect-square md:aspect-[3/4] rounded-3xl bg-[#F6F1EB] border-2 border-[#C9A0A0]/60 flex items-center justify-center shadow-inner relative overflow-hidden group">
             <Image 
-              src="/images/clinic-photo.jpg" 
-              alt="Sadiq Medical & Gynae Clinic Signboard" 
+              src="/images/clinic-main.jpg" 
+              alt="Sadiq Medical & Gynae Clinic Entrance & Signboard" 
               fill
               className="object-cover transition-transform duration-700 group-hover:scale-105"
               priority
