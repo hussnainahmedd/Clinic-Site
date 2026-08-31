@@ -19,7 +19,7 @@ const dmSans = DM_Sans({
 export const metadata: Metadata = {
   title: "Sadiq Clinic — General Physician & Gynae Specialist | Scheme No. 2, Lahore",
   description:
-    "Evening clinic in Scheme No. 2, Lahore. General checkup, drip/injection, and gynae consultation. Mon–Sat 7:30–11:30 PM. Call 0301 5015106.",
+    "Evening clinic in Scheme No. 2, Lahore. General checkup, drip/injection, and gynae consultation. Mon–Sat 7:30 PM – 12:00 AM. Call 0301 5015106.",
   keywords: [
     "Sadiq Clinic",
     "clinic Lahore",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Sadiq Clinic — General Physician & Gynae Specialist",
     description:
-      "Trusted evening clinic in Scheme No. 2, Lahore. General checkup, drip/injection, and gynae consultation. Mon–Sat 7:30–11:30 PM.",
+      "Trusted evening clinic in Scheme No. 2, Lahore. General checkup, drip/injection, and gynae consultation. Mon–Sat 7:30 PM – 12:00 AM.",
     type: "website",
     locale: "en_PK",
   },
@@ -83,7 +83,7 @@ export default function RootLayout({
                   "Saturday",
                 ],
                 opens: "19:30",
-                closes: "23:30",
+                closes: "00:00",
               },
               medicalSpecialty: [
                 "GeneralPractice",

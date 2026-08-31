@@ -21,7 +21,7 @@ export default function Hero() {
             </div>
             <Clock size={14} className="text-[#3D4A52]" />
             <span className="font-sans text-xs sm:text-sm font-medium text-[#3D4A52]">
-              Mon–Sat · 7:30 PM – 11:30 PM
+              Mon–Sat · 7:30 PM – 12:00 AM
             </span>
           </div>
 

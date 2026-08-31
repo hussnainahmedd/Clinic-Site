@@ -61,7 +61,7 @@ export default function LocationHours() {
                 <ul className="space-y-3">
                   <li className="flex justify-between text-[#3D4A52] border-b border-gray-100 pb-2">
                     <span>Monday – Saturday</span>
-                    <span className="font-medium text-right">7:30 PM – 11:30 PM</span>
+                    <span className="font-medium text-right">7:30 PM – 12:00 AM</span>
                   </li>
                   <li className="flex justify-between text-[#C9A0A0] pt-1">
                     <span>Sunday</span>
