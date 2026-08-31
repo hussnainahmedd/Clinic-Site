@@ -1,4 +1,4 @@
-import { Phone, MessageCircle } from 'lucide-react';
+import { Phone } from 'lucide-react';
 
 export default function Contact() {
   return (
@@ -11,32 +11,26 @@ export default function Contact() {
           We're here to help
         </h2>
         <p className="text-[#3D4A52] text-lg mb-10 leading-relaxed">
-          Call us directly or send a message on WhatsApp — we'll get back to you promptly.
+          Call us directly for queries or visit us during clinic evening hours.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-10">
           <a 
-            href="tel:03004393220"
+            href="tel:03015015106"
             className="flex items-center gap-3 bg-[#2A7D6F] hover:bg-[#1f5e53] text-white rounded-full px-8 py-4 text-lg font-medium transition-colors w-full sm:w-auto justify-center"
           >
             <Phone className="w-5 h-5" />
             <span>Call Now</span>
           </a>
-          <a 
-            href="https://wa.me/923004393220"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-3 bg-[#25D366] hover:bg-[#1da851] text-white rounded-full px-8 py-4 text-lg font-medium transition-colors w-full sm:w-auto justify-center"
-          >
-            <MessageCircle className="w-5 h-5" />
-            <span>WhatsApp</span>
-          </a>
         </div>
 
-        <div className="flex items-center justify-center gap-2 text-lg text-[#3D4A52]">
+        <a 
+          href="tel:03015015106"
+          className="inline-flex items-center justify-center gap-2 text-lg text-[#3D4A52] hover:text-[#2A7D6F] transition-colors"
+        >
           <Phone className="w-5 h-5 text-[#2A7D6F]" />
-          <span className="font-medium">0300 4393220</span>
-        </div>
+          <span className="font-medium">0301 5015106</span>
+        </a>
       </div>
     </section>
   );

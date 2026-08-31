@@ -55,11 +55,11 @@ export default function Navbar() {
             </div>
             
             <a
-              href="tel:03004393220"
+              href="tel:03015015106"
               className="flex items-center space-x-2 bg-[#2A7D6F] hover:bg-[#1B2E3C] text-[#FFFFFF] px-5 py-2.5 rounded-full transition-colors font-sans text-sm font-medium"
             >
               <Phone size={16} />
-              <span>0300 4393220</span>
+              <span>0301 5015106</span>
             </a>
           </div>
 
@@ -97,11 +97,11 @@ export default function Navbar() {
         
         <div className="mt-8">
           <a
-            href="tel:03004393220"
+            href="tel:03015015106"
             className="flex items-center justify-center space-x-3 bg-[#2A7D6F] active:bg-[#1B2E3C] text-[#FFFFFF] px-6 py-4 rounded-full font-sans font-medium text-lg w-full transition-colors"
           >
             <Phone size={20} />
-            <span>0300 4393220</span>
+            <span>0301 5015106</span>
           </a>
         </div>
       </div>

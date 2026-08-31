@@ -19,7 +19,7 @@ const dmSans = DM_Sans({
 export const metadata: Metadata = {
   title: "Sadiq Clinic — General Physician & Gynae Specialist | Scheme No. 2, Lahore",
   description:
-    "Evening clinic in Scheme No. 2, Lahore. General checkup, drip/injection, and gynae consultation. Mon–Sat 7:30–11:30 PM. Call 0300 4393220.",
+    "Evening clinic in Scheme No. 2, Lahore. General checkup, drip/injection, and gynae consultation. Mon–Sat 7:30–11:30 PM. Call 0301 5015106.",
   keywords: [
     "Sadiq Clinic",
     "clinic Lahore",
@@ -60,7 +60,7 @@ export default function RootLayout({
               name: "Sadiq Medical & Gynae Clinic",
               alternateName: "Sadiq Clinic",
               url: "https://sadiqclinic.com",
-              telephone: "+923004393220",
+              telephone: "+923015015106",
               address: {
                 "@type": "PostalAddress",
                 streetAddress: "Scheme No. 2",

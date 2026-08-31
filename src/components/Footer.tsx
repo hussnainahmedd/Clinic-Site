@@ -45,7 +45,7 @@ export default function Footer() {
 
           {/* Right */}
           <div className="text-sm text-[#F6F1EB]/60 space-y-1">
-            <p>0300 4393220</p>
+            <p><a href="tel:03015015106" className="hover:text-[#F6F1EB] transition-colors">0301 5015106</a></p>
             <p>Scheme No. 2, Lahore</p>
           </div>
         </div>
